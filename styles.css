@@ -13,7 +13,7 @@ ORDEN PARA GENERAR ESTILOS
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
+  border: none;
   outline: none;
   list-style: none;
   text-decoration: none;
@@ -81,4 +81,30 @@ header img {
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--soft-orange); 
+}
+
+.header--title-container .header--button {
+  position: absolute;
+  left: calc(50% - 115px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  /* Sombra */
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url('./assets/icons/arrow_down.svg');
 }
