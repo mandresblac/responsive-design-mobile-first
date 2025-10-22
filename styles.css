@@ -1,3 +1,5 @@
+/* Estilos para tamaño Mobile */
+
 /* 
 ORDEN PARA GENERAR ESTILOS
 1. Posicionamiento
@@ -19,6 +21,7 @@ ORDEN PARA GENERAR ESTILOS
   text-decoration: none;
 }
 
+/* Variables */
 :root {
   /* Colores */
   --bitcoin-orange: #f7931a;
@@ -176,6 +179,9 @@ main {
   color: var(--bitcoin-orange);
   
 }
+.main-currency-table .currency-table--title2 {
+  color: var(--secondary-blue);
+}
 
 .currency-table--container {
   width: 90%;
@@ -252,6 +258,10 @@ main {
   padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 8px;
+}
+
+.currency-table--date2 {
+  background-color: var(--soft-blue);
 }
 
 .currency-table--date p {
@@ -438,26 +448,22 @@ main {
   display: flex;
   height: 316px;
   overflow-x: scroll;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain; /* Para generar scroll horizontal */
+  scroll-snap-type: x proximity; /* Para generar scroll horizontal */
 }
 
 .plans-container--card {
+  scroll-snap-align: center; /* Para generar scroll horizontal */
   position: relative;
-  scroll-snap-align: center;
   width: 70%;
-  min-width: 230px;
+  min-width: 190px; /* 190px */
   max-width: 300px;
   height: 250px;
-  margin: 50px 45px 0;
+  margin: 50px 5px 0; /* 5px */
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
-}
-
-.plans-container--card-unlimited {
-  background-color: var(--black);
 }
 
 .recommended {
@@ -490,10 +496,6 @@ main {
   color: var(--black);
 }
 
-.plan-card--title-unlimited {
-  color: var(--just-white);
-}
-
 .plan-card--price {
   padding: 5px 0;
   font-size: 5.2rem;
@@ -509,21 +511,6 @@ main {
   font-size: 1.2rem;
   font-weight: 400;
   color: var(--black);
-  position: relative;
-  left: -4px;
-  top: -31px;
-}
-
-.plan-card--price-unlimited {
-  color: var(--just-white);
-}
-
-.plan-card--price-unlimited::before {
-  content: "$";
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  color: var(--just-white);
   position: relative;
   left: -4px;
   top: -31px;
@@ -546,11 +533,6 @@ main {
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--black);
-}
-
-.plan-card--ca-unlimited {
-  background-color: var(--black);
-  color: var(--just-white);
 }
 
 .plan-card--ca span {
