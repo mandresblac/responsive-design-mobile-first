@@ -11,13 +11,16 @@
 
 ## Imagenes del proyecto
 
-Header
+- Header
+
 ![Imagen 1](./assets/screenshots/mobile1.png)
 
-Main
+- Main
+
 ![Imagen 2](./assets/screenshots/mobile2.png)
 
-tables
+- tables
+
 ![Imagen 3](./assets/screenshots/mobile3.png)
 
 Cards
