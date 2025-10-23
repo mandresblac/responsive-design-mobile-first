@@ -10,9 +10,21 @@
 - [responsive design](https://responsive-design-mobile-first.netlify.app/).
 
 ## Imagenes del proyecto
+
+- Header
 ![Imagen 1](./assets/screenshots/mobile1.png)
+
+- Main
 ![Imagen 2](./assets/screenshots/mobile2.png)
+
+- tables
 ![Imagen 3](./assets/screenshots/mobile3.png)
+
+- Cards
 ![Imagen 4](./assets/screenshots/mobile4.png)
+
+- Plans
 ![Imagen 5](./assets/screenshots/mobile5.png)
+
+- Footer
 ![Imagen 6](./assets/screenshots/mobile6.png)
