@@ -23,11 +23,14 @@
 
 ![Imagen 3](./assets/screenshots/mobile3.png)
 
-Cards
+- Cards
+
 ![Imagen 4](./assets/screenshots/mobile4.png)
 
-Plans
+- Plans
+
 ![Imagen 5](./assets/screenshots/mobile5.png)
 
-Footer
+- Footer
+
 ![Imagen 6](./assets/screenshots/mobile6.png)
